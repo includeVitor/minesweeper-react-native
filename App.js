@@ -17,6 +17,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import params from './src/params'
+import Field from './src/components/Field'
 
 export default class App extends Component {
   
@@ -30,6 +31,7 @@ export default class App extends Component {
           {params.getRowsAmount()} x {params.getColumnsAmount()}
         </Text>
 
+        <Field />
       </View>
     
     )
